@@ -1,4 +1,4 @@
-let data = require("./q1_json_data");
+let data = require("./json_data");
 
 for(let i=0;i<data.length;i++){
     console.log(data[i].name);

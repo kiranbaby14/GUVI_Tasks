@@ -3,7 +3,7 @@ let palin = arr.filter((str) => {
     let rev = str.split('').reverse().join('');
     if(str === rev)
         return str;  
-})
+});
 console.log(palin);
 
 /*----------OUTPUT-------------

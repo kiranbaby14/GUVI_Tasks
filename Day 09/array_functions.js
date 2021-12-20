@@ -101,7 +101,7 @@ xhttp.onload = function(){
 	    alpha2Code: 'AS',
 	    alpha3Code: 'ASM',
 	    callingCodes: [ '1684' ],
-	   .......
+	  .......
 	
 	*/
 

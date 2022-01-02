@@ -1,2 +1,2 @@
 ## Screenshot
-![Screenshot (77)](https://user-images.githubusercontent.com/50899339/147879173-da9d9b3c-1489-47b9-b65d-33e16cb91511.png)
+![Screenshot (79)](https://user-images.githubusercontent.com/50899339/147879298-bf4fc4e2-abc0-4f84-a255-0482efb748ad.png)

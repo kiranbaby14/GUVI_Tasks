@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        width: 450px;
+        align-items: center;
+        border: 2px solid #000000;
+        padding: 15px;
+        font-size: 12px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      form h2 {
+        background-color: red;
+        font-weight: 900;
+        color: #fff;
+        text-align: center;
+      }
+
+      .row {
+        display: flex;
+      }
+      .column input {
+        border: none;
+        border-bottom: 2px solid black;
+        margin: 10px;
+        width: 90%;
+        font-style: italic;
+        font-size: 15px;
+      }
+      #subinfo {
+        font-size: 13px;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <h2>Yes! I want to subscribe to <i>Mag-O-Zine</i></h2>
+      <div class="row">
+        <div class="column">
+          <input type="text" /> <br />
+          <label for="fname">firstName</label>
+        </div>
+        <div class="column">
+          <input type="text" /> <br />
+          <label for="lname">lastName</label>
+        </div>
+      </div>
+
+      <div class="column">
+        <input type="text" /> <br />
+        <label for="">Address</label>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <input type="text" /> <br />
+          <label for="city">City</label>
+        </div>
+        <div class="column">
+          <input type="text" /> <br />
+          <label for="state">State</label>
+        </div>
+        <div class="column">
+          <input type="text" /> <br />
+          <label for="zip">Zip</label>
+        </div>
+      </div>
+      <br />
+
+      <div id="subinfo">
+        <label for="">Subscribe for:</label>
+        <input type="checkbox" /> <label for="">1 year ($19.95)</label>
+        <input type="checkbox" /> <label for="">2 year ($35.00)</label>
+        <br />
+        <br />
+        <label for="">Send me more information about</label> <br />
+        <input type="checkbox" /> <label for="">Computer-Zine</label><br />
+        <input type="checkbox" /> <label for="">Finishing-Zine</label><br />
+        <input type="checkbox" /> <label for="">Cat-O-Zine</label>
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+Q11. Create an HTML page, which should contain all types of input elements.
+
+Ans:-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  
+  </head>
+  <body>
+    <form>
+      <input type="text" placeholder="Enter Fullname" />       
+      <br>
+      <br>
+      <input type="email" placeholder="Enter Email" /> 
+      <br>
+      <br>
+      <input type="password" placeholder="Create Password" /> 
+      <br>
+      <br>
+      <input type="number" placeholder="Enter age"/> 
+      <br>
+      <br>
+      <input type="date"/>
+      
+      <br>
+      <br>
+
+      <label>Gender:</label>
+      <input type="radio" name="gen" value="male" id="male"/>
+      <label for="male">Male</label>
+      <input type="radio" name="gen" value="female" id="female" />
+      <label for="female">Female</label>
+      <input type="radio" name="gen" value="others" id="others"/>
+      <label for="others">Others</label>
+
+      <br>
+      <br>
+
+      <label>Social Media:</label> 
+      <input type="checkbox" id="check1"/>
+      <label for="check1">Facebook</label> 
+      <input type="checkbox" id="check2"/>
+      <label for="check2">Twitter</label>
+      <input type="checkbox" id="check3"/>
+      <label for="check3">Instagram</label> 
+      
+      <br>
+      <br>
+      
+      <input type="submit" value="Submit" class="submitbtn" />
+    </form>
+    
+  </body>
+</html>

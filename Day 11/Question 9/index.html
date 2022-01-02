@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+        font-family: sans-serif;
+        font-weight: 700;
+        color: #555;
+      }
+      .title {
+        font-size: 28px;
+        letter-spacing: 0.5px;
+        margin-left: 10px;
+      }
+      #contact_form input {
+        font-size: 16px;
+        color: #000;
+        padding: 10px 5px 10px 5px;
+        width: 100%;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+      }
+      .row {
+        display: flex;
+        margin-top: 20px;
+      }
+      .col {
+        margin-left: 15px;
+      }
+      #submitbtn {
+        margin: 10px 0 0 10px;
+        font-size: 20px;
+        width: 150px;
+        height: 40px;
+        background-color: #18cfe7;
+        color: #fff;
+        border: none;
+      }
+      #other_info {
+        margin: 10px 0 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="contact_form">
+      <div class="title">Contact Us</div>
+      <div class="row">
+        <div class="col">
+          <label>First Name:</label><br />
+          <input
+            type="text"
+            placeholder="Enter your first name"
+            name="name"
+            value="Kiran"
+          /><br />
+        </div>
+        <div class="col">
+          <label>Last Name:</label><br />
+          <input
+            type="text"
+            placeholder="Enter your last name"
+            name="username"
+            value="Baby"
+          />
+          <br />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <label>Email:</label><br />
+          <input
+            type="text"
+            placeholder="Enter Email"
+            name="email"
+            id="email"
+            value="kiranbaby@gmail.com"
+          />
+          <br />
+        </div>
+        <div class="col">
+          <label>Contact Number:</label><br />
+          <input
+            type="text"
+            placeholder="Enter Contact Number"
+            name="contactnum"
+            id="contactnum"
+            value="7657171189"
+          />
+          <br />
+        </div>
+      </div>
+    </div>
+    <div id="other_info">
+      Gender:
+      <input type="radio" name="gender" id="male" value="male" checked />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" value="female" />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="others" value="other" />
+      <label for="others">Others</label>
+    </div>
+
+    <button type="submit" id="submitbtn">Submit</button>
+  </body>
+</html>

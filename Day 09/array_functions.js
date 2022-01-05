@@ -9,7 +9,8 @@ xhttp.onload = function(){
 
 //---------------------------------------------------------------------------------------------------
 	
-	// a. Get all the countries from Asia continent /region using Filter function
+//************* Q1. Get all the countries from Asia continent /region using Filter function*************
+	
 	let reg = data.filter( element => element.region === "Asia");
 	console.log(reg);
 
@@ -30,7 +31,8 @@ xhttp.onload = function(){
 
 //---------------------------------------------------------------------------------------------------
 	
-	// b. Get all the countries with a population of less than 2 lakhs using Filter function
+//************* Q2. Get all the countries with a population of less than 2 lakhs using Filter function*************
+	
 	let result2 = data.filter( element => element.population < 200000);
 	console.log(result2);
 
@@ -46,7 +48,8 @@ xhttp.onload = function(){
 
 //---------------------------------------------------------------------------------------------------
 	
-	// c. Print the following details name, capital, flag using forEach function
+//************* Q3. Print the following details name, capital, flag using forEach function*************
+	
 	data.forEach((element) => {
 		console.log(`
 		Name: ${element.name}
@@ -73,7 +76,8 @@ xhttp.onload = function(){
 	
 //---------------------------------------------------------------------------------------------------
 
-	// d. Print the total population of countries using reduce function
+//************* Q4. Print the total population of countries using reduce function************* 
+	
 	let sumPopulaion = data.reduce( (prev, element) => element.population + prev, 0);
 	console.log(`sum of population is: ${sumPopulaion}`);
 
@@ -87,7 +91,8 @@ xhttp.onload = function(){
 
 //---------------------------------------------------------------------------------------------------
 	
-	// e. Print the country which uses US Dollars as currency.
+//************* Q5. Print the country which uses US Dollars as currency.************* 
+	
 	let currency = data.filter(element => element.currencies[0].code === 'USD');
 	console.log(currency);
 
